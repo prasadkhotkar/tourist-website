@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background: url("../img/New-Featured-1-3.webp") no-repeat center center/cover ;
+    overflow: hidden;
+
+    
+
+}
+
+h3{
+    font-size: 44px;
+}
+.header-content{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color:white;
+}
+/* .line{
+    width: 237px;
+    height: 5px;
+    align-content: center;
+    background: rgb(203 70 115);
+} */
+.btn{
+    border: 2px solid black;
+    color: white;
+    background:rgb(145, 46, 79) ;
+    padding: 10px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background: brown;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+}
+.nav-content{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* padding: 15px; */
+}
+.nav-content li{
+    margin: 0 40px;
+    font-size: 25px;
+    
+}
+.nav-content  li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.nav-content  li a:hover{
+color: rgb(3, 3, 3);
+background-color: whitesmoke;
+
+}
+
+/* UPCOMING EVENTS */
+ /* section{
+    width: 53%;
+    margin: 70px 500px;
+    
+}
+.event h1{
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ .col{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    
+}  */
+section{
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 30px;
+}
+.event{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-top: 30px; 
+}
+.event h1{
+    color: black;
+    font-size: 3rem;
+}
+.row{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    height: 583px;
+}
+
+.col1{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    height: 583px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col1 img{
+    height: 406px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.row h4{
+    font-size: 2rem;
+}
+.rm{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+
+}
+.rm:hover{
+    background-color: rgb(141, 115, 165);
+
+}
+
+/* Explore the world */
+.explore{
+
+    height: 100vh;
+    width: 100%;
+    background: url("../img/happycouple.jpg") no-repeat center center/cover ;
+    overflow: hidden;
+    display: flex;
+    opacity: 0.9;
+}
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    
+color: whitesmoke;
+}
+
+.explore-content h1{
+    font-size: 2.5rem;
+    margin: 50px;
+}
+
+/* UPCOMING TOURS AND DESTINATION */
+
+ /* .tours{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+   
+
+} */
+/* .tours .destination{
+    display: flex;
+    flex-direction: row;
+} */ 
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.DESTINATION{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.image{
+    width: 734px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    height: 508px;
+    
+}
+.image img{
+    height: 230px;
+    padding: 2px;
+
+}
+.pics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pics h1{
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    color: rgb(160, 160, 183);
+}
+.pics  p{
+margin-left: 20px;
+    
+
+}
+.rm{
+    margin-top: 15px;
+    
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+}
+.center{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
